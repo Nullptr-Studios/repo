@@ -3,6 +3,7 @@ package("xein-repo", function()
 
 	add_urls("https://github.com/ynks/xmake-repo-test.git")
 	add_versions("1.0", "v1.0")
+	add_versions("1.1", "v1.1")
 
 	on_install(function (package)
 		local configs = {}
