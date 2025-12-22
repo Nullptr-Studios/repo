@@ -19,7 +19,7 @@ add_urls("https://github.com/Nullptr-Studios/toast-engine.git")
 add_versions("main", "main")
 add_versions("dev", "dev")
 add_versions("physics-alpha", "physics/physics-system")
-add_versions("physics-engine", "physics/physics-engine")
+add_versions("physics-engine", "refs/heads/physics/physics-engine")
 
 add_configs("shared", {description = "Build shared library", default = false, type = "boolean", readonly = true})
 
