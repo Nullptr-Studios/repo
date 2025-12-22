@@ -25,5 +25,6 @@ add_configs("shared", {description = "Build shared library", default = false, ty
 on_install(function (package)
 	local configs = {}
 	configs.kind = "static"
+	configs.target = "toast.engine"
 	import("package.tools.xmake").install(package, configs)
 end)
