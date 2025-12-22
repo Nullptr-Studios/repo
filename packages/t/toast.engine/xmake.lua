@@ -16,7 +16,7 @@ add_deps("imguizmo 1.91.3+wip")
 add_deps("spine 4.2")
 
 add_urls("https://github.com/Nullptr-Studios/toast-engine.git")
-add_versions("main", "main")
+add_versions("1.0", "1.0.0")
 add_versions("physics-alpha", "physics/physics-engine")
 
 add_configs("shared", {description = "Build shared library", default = false, type = "boolean", readonly = true})
