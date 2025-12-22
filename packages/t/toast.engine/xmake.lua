@@ -19,12 +19,12 @@ add_urls("https://github.com/Nullptr-Studios/toast-engine.git")
 add_versions("main", "main")
 add_versions("dev", "dev")
 add_versions("physics-alpha", "physics/physics-system")
+add_versions("physics-engine", "physics/physics-engine")
 
 add_configs("shared", {description = "Build shared library", default = false, type = "boolean", readonly = true})
 
 on_install(function (package)
 	local configs = {}
 	configs.kind = "static"
-	configs.target = "toast.engine"
-	import("package.tools.xmake").install(package, configs)
+	import("package.tools.xmake").install(package, configs, {target = "toast.engine"})
 end)
