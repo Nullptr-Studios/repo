@@ -15,7 +15,7 @@ add_deps("imgui v1.92.5-docking", {configs = {glfw = true, opengl3 = true}})
 add_deps("imguizmo 1.91.3+wip")
 add_deps("spine 4.2")
 
-add_urls("file:///home/xein/code/engine/.git")
+add_urls("https://github.com/nullptr-studios/toast-engine.git")
 add_versions("1.0", "1.0.0")
 add_versions("physics-alpha", "physics/physics-engine")
 
