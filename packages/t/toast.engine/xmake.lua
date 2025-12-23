@@ -11,7 +11,7 @@ add_deps("stb")
 add_deps("yaml-cpp")
 add_deps("sol2")
 add_deps("tinyobjloader v2.0.0rc13")
-add_deps("imgui v1.92.5-docking")
+add_deps("imgui v1.92.5-docking", {configs = {glfw = true, opengl3 = true}})
 add_deps("imguizmo 1.91.3+wip")
 add_deps("spine 4.2")
 
