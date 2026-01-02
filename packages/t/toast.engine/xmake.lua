@@ -17,8 +17,7 @@ add_deps("spine 4.2")
 
 add_urls("https://github.com/nullptr-studios/toast-engine.git")
 add_versions("1.0", "1.0.0")
-add_versions("physics-alpha", "physics/physics-engine")
-add_versions("physics-alpha-2", "physics/v2")
+add_versions("physics-alpha-2", "physics/box-rigidbody")
 
 add_configs("shared", {description = "Build shared library", default = false, type = "boolean", readonly = true})
 
